@@ -37,7 +37,7 @@ class ResultActivity : AppCompatActivity() {
         }
 
 
-        tvclassificacao.text= classificacao
+        tvclassificacao.text = classificacao
 
 
     }
