@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             val pesoStr: String = edtPeso.text.toString()
             val alturaStr: String = edtAltura.text.toString()
 
-            if (pesoStr == "" || alturaStr == "") {
+            if (pesoStr == ""|| alturaStr == "") {
                 // Mostrar mensagem para o usuario
 
                 Snackbar.make(
@@ -52,11 +52,12 @@ class MainActivity : AppCompatActivity() {
                 // Intent - Classe do proprio android
 
                 val intent = Intent(this, ResultActivity::class.java)
-             intent.putExtra(key_result_IMC,resultado)
+                intent.putExtra(key_result_IMC, resultado)
                 startActivity(intent)
 
-                println("Acao do botao " + resultado)
-
+                // Mudar cores do app
+                // Editext background + icone
+                // Gradiente + icone + titulo + descrição
             }
 
 

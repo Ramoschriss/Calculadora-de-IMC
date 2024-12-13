@@ -24,7 +24,7 @@ class ResultActivity : AppCompatActivity() {
         tvresult.text = result.toString()
 
 
-        val classificacao: String? = if (result <= 18.5f) {
+        val classificacao: String = if (result <= 18.5f) {
             "Magreza"
         } else if (result > 18.5f && result <= 24.9f) {
             "Normal"
@@ -37,7 +37,8 @@ class ResultActivity : AppCompatActivity() {
         }
 
 
-       tvclassificacao.text = classificacao
+        tvclassificacao.text= classificacao
+
 
     }
 }
