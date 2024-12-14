@@ -33,7 +33,7 @@ class ResultActivity : AppCompatActivity() {
         } else if (result > 30 && result <= 39.9f) {
             "Obesidade"
         } else {
-            "Obesidade Grav"
+            "Obesidade Grave"
         }
 
 
